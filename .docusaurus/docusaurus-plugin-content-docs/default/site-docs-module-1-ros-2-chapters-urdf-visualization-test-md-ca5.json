@@ -1,0 +1,15 @@
+{
+  "id": "module-1-ros2/chapters/urdf-visualization-test",
+  "title": "Testing URDF Visualization in RViz2",
+  "description": "This document explains how to test and validate the humanoid robot URDF model in RViz2.",
+  "source": "@site/docs/module-1-ros2/chapters/urdf-visualization-test.md",
+  "sourceDirName": "module-1-ros2/chapters",
+  "slug": "/module-1-ros2/chapters/urdf-visualization-test",
+  "permalink": "/docs/module-1-ros2/chapters/urdf-visualization-test",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/urdf-visualization-test.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,55 +1,76 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.1.0 → 1.0.0 (initial project constitution)
+- Modified principles: All principles newly defined for the Physical AI & Humanoid Robotics project
+- Added sections: Technical accuracy, Fidelity to primary sources, Clarity for engineering audience, Modular consistency, Maintainability, RAG integrity
+- Removed sections: Template placeholders
+- Templates requiring updates: ✅ updated
+- Follow-up TODOs: None
+-->
+
+# Physical AI & Humanoid Robotics Book Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Technical Accuracy
+All robotics, AI systems, ROS 2, Gazebo, Unity, NVIDIA Isaac, and VLA architecture concepts must be validated through primary technical documentation and authoritative sources. Content must reflect real-world implementation practices and proven methodologies in the field.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Fidelity to Primary Sources
+All content must be grounded in official documentation from ROS, Gazebo, Unity, Isaac, OpenAI Agents, Whisper, and other authoritative technical resources. No secondary interpretations or assumptions should be made without clear citation to primary sources.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Engineering Audience Clarity
+Content must be structured for an upper-undergraduate to graduate level engineering audience. Explanations should be technically precise yet accessible, with sufficient depth for implementation while maintaining conceptual clarity.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Modular Consistency
+Book chapters, code examples, and RAG knowledge chunks must maintain consistent terminology, structure, and formatting across all components. Each module should be self-contained while contributing to the overall educational narrative.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Maintainability for Publication
+All content must be structured for Docusaurus + GitHub Pages publishing, with clear file organization, proper linking, and adherence to documentation best practices that support long-term maintenance.
 
-### [PRINCIPLE_6_NAME]
+### VI. RAG Integrity
+Chatbot responses must be strictly grounded in book text or selected user snippets. The system must reject questions outside the book's scope and maintain strict factual accuracy without hallucination.
 
+## Technical Standards
 
-[PRINCIPLE__DESCRIPTION]
+### Source Validation Requirements
+- All robotics concepts must be validated through primary technical documentation
+- All code examples must be executable and tested (Python, ROS 2 rclpy, FastAPI, Agents SDK)
+- All diagrams must follow a consistent system-architecture style (mermaid + PNG exports)
+- RAG chunks must be atomic, self-contained, and context-safe
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Knowledge Sources
+All content must reference and be validated against:
+- ROS 2 (Humble/Iron) official documentation
+- Gazebo Garden/Ignition official docs
+- Unity robotics documentation
+- NVIDIA Isaac Sim + Isaac ROS documentation
+- OpenAI Agents/ChatKit SDK documentation
+- Neon Serverless Postgres + Qdrant documentation
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Format & Structure Requirements
+- Book framework: Docusaurus v3
+- Deployment: GitHub Pages
+- Code integration: Claude Code + Spec-Kit Plus atomic workflows
+- RAG backend: FastAPI inference server with Neon Serverless Postgres for chat logs & metadata, Qdrant Cloud Free Tier for vector embeddings, OpenAI Agents/ChatKit SDK for orchestration
+- File structure must follow Docusaurus best practices with organized /docs, /src/components, /rag/api, /rag/db, /rag/vectorstore, and /spec directories
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Development Workflow
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Content Creation Standards
+- Textbook word count: 40,000–55,000 words
+- Every chapter must include: Learning objectives, Architecture diagrams, ROS/Gazebo/Isaac code examples, Implementation labs, Review questions
+- All source claims must cite an official documentation URL (non-APA format)
+- Zero hallucinations allowed in RAG mode
+- Zero proprietary code unless open-sourced or properly licensed
+
+### Quality Assurance
+- RAG chatbot must correctly answer both global book questions and snippet-based questions
+- All ROS 2, Gazebo, Unity, Isaac, and Agents SDK code must be validated through dry-run or simulation
+- All Spec-Kit Plus tasks must produce deterministic outputs
+- Book must pass internal technical audit for correctness, clarity, and reproducibility
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all development activities for the Physical AI & Humanoid Robotics book project. All contributions must comply with these principles. Amendments require documentation of changes, approval from project maintainers, and a migration plan for existing content. All pull requests and reviews must verify constitutional compliance before merging.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-07 | **Last Amended**: 2025-12-07

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!-- Left Arm Components for Humanoid Robot -->
+<robot name="humanoid_left_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Left Arm -->
+  <link name="left_upper_arm">
+    <visual>
+      <geometry>
+        <cylinder length="0.3" radius="0.05"/>
+      </geometry>
+      <material name="red"/>
+      <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.3" radius="0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.001"/>
+    </inertial>
+  </link>
+
+  <joint name="left_shoulder_pitch" type="revolute">
+    <parent link="torso"/>
+    <child link="left_upper_arm"/>
+    <origin xyz="0.2 0.0 0.2"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="3.0"/>
+  </joint>
+
+  <link name="left_lower_arm">
+    <visual>
+      <geometry>
+        <cylinder length="0.3" radius="0.04"/>
+      </geometry>
+      <material name="red"/>
+      <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.3" radius="0.04"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+    </collision>
+    <inertial>
+      <mass value="0.8"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.001"/>
+    </inertial>
+  </link>
+
+  <joint name="left_elbow_joint" type="revolute">
+    <parent link="left_upper_arm"/>
+    <child link="left_lower_arm"/>
+    <origin xyz="0.0 0.0 -0.3"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-2.0" upper="0.0" effort="100" velocity="3.0"/>
+  </joint>
+
+</robot>

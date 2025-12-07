@@ -1,0 +1,82 @@
+# ROS 2 specific
+build/
+install/
+log/
+.develset
+*.pyc
+__pycache__/
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Docusaurus
+.node/
+.derivative-cache/
+build/
+dist/
+*.egg-info/
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+webstorm.kbdic
+
+# Documentation
+docs/build/
+
+# Examples
+examples/*/build/
+examples/*/install/
+examples/*/*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.env
+*.key
+*.pem
+secrets/
+
+node_modules/

@@ -1,0 +1,358 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs",
+          "editUrlLocalized": "https://github.com/speckit/robotic-book/edit/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\user1542\\Desktop\\speckit\\robotic_book\\sidebars.js",
+          "contentPath": "C:\\Users\\user1542\\Desktop\\speckit\\robotic_book\\docs",
+          "contentPathLocalized": "C:\\Users\\user1542\\Desktop\\speckit\\robotic_book\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "id": "intro",
+              "title": "Introduction to Physical AI & Humanoid Robotics",
+              "description": "Welcome to the Physical AI & Humanoid Robotics book. This comprehensive guide covers the development of intelligent humanoid robots using ROS 2 and AI agents.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Chapter 1: Introduction to ROS 2 for Humanoid Robotics",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-1-intro"
+              }
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-1-intro",
+              "title": "Chapter 1: Introduction to ROS 2 for Humanoid Robotics",
+              "description": "What is ROS 2 and Why is it the \"Nervous System\" of Humanoid Robots?",
+              "source": "@site/docs/module-1-ros2/chapters/chapter-1-intro.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/chapter-1-intro",
+              "permalink": "/docs/module-1-ros2/chapters/chapter-1-intro",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-1-intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction to Physical AI & Humanoid Robotics",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Chapter 2: ROS 2 Nodes, Topics, and Services",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-2-communication"
+              }
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-2-communication",
+              "title": "Chapter 2: ROS 2 Nodes, Topics, and Services",
+              "description": "ROS 2 Communication Ecosystem",
+              "source": "@site/docs/module-1-ros2/chapters/chapter-2-communication.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/chapter-2-communication",
+              "permalink": "/docs/module-1-ros2/chapters/chapter-2-communication",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-2-communication.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 1: Introduction to ROS 2 for Humanoid Robotics",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-1-intro"
+              },
+              "next": {
+                "title": "Chapter 3: Parameters, Launch Files, and Modular Control",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-3-parameters"
+              }
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-3-parameters",
+              "title": "Chapter 3: Parameters, Launch Files, and Modular Control",
+              "description": "Dynamic Parameters for Humanoid Robots",
+              "source": "@site/docs/module-1-ros2/chapters/chapter-3-parameters.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/chapter-3-parameters",
+              "permalink": "/docs/module-1-ros2/chapters/chapter-3-parameters",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-3-parameters.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 2: ROS 2 Nodes, Topics, and Services",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-2-communication"
+              },
+              "next": {
+                "title": "Chapter 4: URDF: Modeling a Humanoid Robot",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-4-urdf"
+              }
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-4-urdf",
+              "title": "Chapter 4: URDF: Modeling a Humanoid Robot",
+              "description": "Understanding URDF for Bipedal Robots",
+              "source": "@site/docs/module-1-ros2/chapters/chapter-4-urdf.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/chapter-4-urdf",
+              "permalink": "/docs/module-1-ros2/chapters/chapter-4-urdf",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-4-urdf.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 3: Parameters, Launch Files, and Modular Control",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-3-parameters"
+              },
+              "next": {
+                "title": "Chapter 5: Bridging AI Agents to ROS 2",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-5-ai-integration"
+              }
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-5-ai-integration",
+              "title": "Chapter 5: Bridging AI Agents to ROS 2",
+              "description": "This chapter explains how to connect AI agents to ROS 2 to bridge high-level planning with low-level robot control. We'll build a FastAPI server that serves as an interface between AI agents (like OpenAI's GPT models) and ROS 2 systems.",
+              "source": "@site/docs/module-1-ros2/chapters/chapter-5-ai-integration.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/chapter-5-ai-integration",
+              "permalink": "/docs/module-1-ros2/chapters/chapter-5-ai-integration",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-5-ai-integration.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 4: URDF: Modeling a Humanoid Robot",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-4-urdf"
+              },
+              "next": {
+                "title": "Chapter 6: Capstone Lab: Building the Humanoid Control Pipeline",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-6-capstone"
+              }
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-6-capstone",
+              "title": "Chapter 6: Capstone Lab: Building the Humanoid Control Pipeline",
+              "description": "Integrating All Components",
+              "source": "@site/docs/module-1-ros2/chapters/chapter-6-capstone.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/chapter-6-capstone",
+              "permalink": "/docs/module-1-ros2/chapters/chapter-6-capstone",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-6-capstone.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Chapter 5: Bridging AI Agents to ROS 2",
+                "permalink": "/docs/module-1-ros2/chapters/chapter-5-ai-integration"
+              }
+            },
+            {
+              "id": "module-1-ros2/chapters/cli-basics-tutorial",
+              "title": "ROS 2 CLI Basics Tutorial",
+              "description": "This tutorial covers the fundamental ROS 2 command-line interface tools that are essential for working with humanoid robot systems.",
+              "source": "@site/docs/module-1-ros2/chapters/cli-basics-tutorial.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/cli-basics-tutorial",
+              "permalink": "/docs/module-1-ros2/chapters/cli-basics-tutorial",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/cli-basics-tutorial.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module-1-ros2/chapters/communication-diagram",
+              "title": "Communication Diagram: Humanoid Robot Control Cycle",
+              "description": "Overview",
+              "source": "@site/docs/module-1-ros2/chapters/communication-diagram.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/communication-diagram",
+              "permalink": "/docs/module-1-ros2/chapters/communication-diagram",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/communication-diagram.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module-1-ros2/chapters/testing-workflow",
+              "title": "Testing Workflow: Validating the Workspace Setup",
+              "description": "This document outlines the process for testing that the workspace setup instructions work correctly in a fresh environment.",
+              "source": "@site/docs/module-1-ros2/chapters/testing-workflow.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/testing-workflow",
+              "permalink": "/docs/module-1-ros2/chapters/testing-workflow",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/testing-workflow.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module-1-ros2/chapters/urdf-visualization-test",
+              "title": "Testing URDF Visualization in RViz2",
+              "description": "This document explains how to test and validate the humanoid robot URDF model in RViz2.",
+              "source": "@site/docs/module-1-ros2/chapters/urdf-visualization-test.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/urdf-visualization-test",
+              "permalink": "/docs/module-1-ros2/chapters/urdf-visualization-test",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/urdf-visualization-test.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module-1-ros2/chapters/workspace-diagram",
+              "title": "ROS 2 Workspace Diagram",
+              "description": "Directory Structure Diagram",
+              "source": "@site/docs/module-1-ros2/chapters/workspace-diagram.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/workspace-diagram",
+              "permalink": "/docs/module-1-ros2/chapters/workspace-diagram",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/workspace-diagram.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module-1-ros2/chapters/workspace-setup-guide",
+              "title": "Step-by-Step ROS 2 Workspace Setup Guide",
+              "description": "This guide provides detailed instructions for setting up a ROS 2 workspace for humanoid robotics development, with screenshots and verification steps.",
+              "source": "@site/docs/module-1-ros2/chapters/workspace-setup-guide.md",
+              "sourceDirName": "module-1-ros2/chapters",
+              "slug": "/module-1-ros2/chapters/workspace-setup-guide",
+              "permalink": "/docs/module-1-ros2/chapters/workspace-setup-guide",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/workspace-setup-guide.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module-1-ros2/index",
+              "title": "Module 1: The Robotic Nervous System (ROS 2)",
+              "description": "Welcome to Module 1 of the Physical AI & Humanoid Robotics book. This module covers the fundamentals of ROS 2 as the \"nervous system\" of humanoid robots, focusing on middleware for robot control.",
+              "source": "@site/docs/module-1-ros2/index.md",
+              "sourceDirName": "module-1-ros2",
+              "slug": "/module-1-ros2/",
+              "permalink": "/docs/module-1-ros2/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "id": "module-1-ros2/setup-guide",
+              "title": "ROS 2 Humble Hawksbill Development Environment Setup",
+              "description": "This document outlines the steps required to set up a ROS 2 Humble Hawksbill development environment for the Physical AI & Humanoid Robotics book.",
+              "source": "@site/docs/module-1-ros2/setup-guide.md",
+              "sourceDirName": "module-1-ros2",
+              "slug": "/module-1-ros2/setup-guide",
+              "permalink": "/docs/module-1-ros2/setup-guide",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/setup-guide.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Module 1 - The Robotic Nervous System (ROS 2)",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "module-1-ros2/chapters/chapter-1-intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-1-ros2/chapters/chapter-2-communication"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-1-ros2/chapters/chapter-3-parameters"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-1-ros2/chapters/chapter-4-urdf"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-1-ros2/chapters/chapter-5-ai-integration"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "module-1-ros2/chapters/chapter-6-capstone"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

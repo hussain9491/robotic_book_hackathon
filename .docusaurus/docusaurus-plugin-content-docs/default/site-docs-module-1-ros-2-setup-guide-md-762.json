@@ -1,0 +1,15 @@
+{
+  "id": "module-1-ros2/setup-guide",
+  "title": "ROS 2 Humble Hawksbill Development Environment Setup",
+  "description": "This document outlines the steps required to set up a ROS 2 Humble Hawksbill development environment for the Physical AI & Humanoid Robotics book.",
+  "source": "@site/docs/module-1-ros2/setup-guide.md",
+  "sourceDirName": "module-1-ros2",
+  "slug": "/module-1-ros2/setup-guide",
+  "permalink": "/docs/module-1-ros2/setup-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/setup-guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

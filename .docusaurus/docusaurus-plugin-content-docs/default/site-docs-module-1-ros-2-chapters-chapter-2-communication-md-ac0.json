@@ -1,0 +1,24 @@
+{
+  "id": "module-1-ros2/chapters/chapter-2-communication",
+  "title": "Chapter 2: ROS 2 Nodes, Topics, and Services",
+  "description": "ROS 2 Communication Ecosystem",
+  "source": "@site/docs/module-1-ros2/chapters/chapter-2-communication.md",
+  "sourceDirName": "module-1-ros2/chapters",
+  "slug": "/module-1-ros2/chapters/chapter-2-communication",
+  "permalink": "/docs/module-1-ros2/chapters/chapter-2-communication",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-2-communication.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: Introduction to ROS 2 for Humanoid Robotics",
+    "permalink": "/docs/module-1-ros2/chapters/chapter-1-intro"
+  },
+  "next": {
+    "title": "Chapter 3: Parameters, Launch Files, and Modular Control",
+    "permalink": "/docs/module-1-ros2/chapters/chapter-3-parameters"
+  }
+}

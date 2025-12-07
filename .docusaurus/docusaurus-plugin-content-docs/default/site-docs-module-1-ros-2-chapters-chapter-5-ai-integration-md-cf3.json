@@ -1,0 +1,24 @@
+{
+  "id": "module-1-ros2/chapters/chapter-5-ai-integration",
+  "title": "Chapter 5: Bridging AI Agents to ROS 2",
+  "description": "This chapter explains how to connect AI agents to ROS 2 to bridge high-level planning with low-level robot control. We'll build a FastAPI server that serves as an interface between AI agents (like OpenAI's GPT models) and ROS 2 systems.",
+  "source": "@site/docs/module-1-ros2/chapters/chapter-5-ai-integration.md",
+  "sourceDirName": "module-1-ros2/chapters",
+  "slug": "/module-1-ros2/chapters/chapter-5-ai-integration",
+  "permalink": "/docs/module-1-ros2/chapters/chapter-5-ai-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-5-ai-integration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: URDF: Modeling a Humanoid Robot",
+    "permalink": "/docs/module-1-ros2/chapters/chapter-4-urdf"
+  },
+  "next": {
+    "title": "Chapter 6: Capstone Lab: Building the Humanoid Control Pipeline",
+    "permalink": "/docs/module-1-ros2/chapters/chapter-6-capstone"
+  }
+}

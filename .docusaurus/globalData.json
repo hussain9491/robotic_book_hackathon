@@ -1,0 +1,95 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-1-intro",
+              "path": "/docs/module-1-ros2/chapters/chapter-1-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-2-communication",
+              "path": "/docs/module-1-ros2/chapters/chapter-2-communication",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-3-parameters",
+              "path": "/docs/module-1-ros2/chapters/chapter-3-parameters",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-4-urdf",
+              "path": "/docs/module-1-ros2/chapters/chapter-4-urdf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-5-ai-integration",
+              "path": "/docs/module-1-ros2/chapters/chapter-5-ai-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapters/chapter-6-capstone",
+              "path": "/docs/module-1-ros2/chapters/chapter-6-capstone",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapters/cli-basics-tutorial",
+              "path": "/docs/module-1-ros2/chapters/cli-basics-tutorial"
+            },
+            {
+              "id": "module-1-ros2/chapters/communication-diagram",
+              "path": "/docs/module-1-ros2/chapters/communication-diagram"
+            },
+            {
+              "id": "module-1-ros2/chapters/testing-workflow",
+              "path": "/docs/module-1-ros2/chapters/testing-workflow"
+            },
+            {
+              "id": "module-1-ros2/chapters/urdf-visualization-test",
+              "path": "/docs/module-1-ros2/chapters/urdf-visualization-test"
+            },
+            {
+              "id": "module-1-ros2/chapters/workspace-diagram",
+              "path": "/docs/module-1-ros2/chapters/workspace-diagram"
+            },
+            {
+              "id": "module-1-ros2/chapters/workspace-setup-guide",
+              "path": "/docs/module-1-ros2/chapters/workspace-setup-guide"
+            },
+            {
+              "id": "module-1-ros2/index",
+              "path": "/docs/module-1-ros2/"
+            },
+            {
+              "id": "module-1-ros2/setup-guide",
+              "path": "/docs/module-1-ros2/setup-guide"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

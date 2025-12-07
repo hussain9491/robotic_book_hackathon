@@ -1,0 +1,15 @@
+{
+  "id": "module-1-ros2/chapters/cli-basics-tutorial",
+  "title": "ROS 2 CLI Basics Tutorial",
+  "description": "This tutorial covers the fundamental ROS 2 command-line interface tools that are essential for working with humanoid robot systems.",
+  "source": "@site/docs/module-1-ros2/chapters/cli-basics-tutorial.md",
+  "sourceDirName": "module-1-ros2/chapters",
+  "slug": "/module-1-ros2/chapters/cli-basics-tutorial",
+  "permalink": "/docs/module-1-ros2/chapters/cli-basics-tutorial",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/cli-basics-tutorial.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

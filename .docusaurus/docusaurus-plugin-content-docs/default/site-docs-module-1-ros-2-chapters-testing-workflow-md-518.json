@@ -1,0 +1,15 @@
+{
+  "id": "module-1-ros2/chapters/testing-workflow",
+  "title": "Testing Workflow: Validating the Workspace Setup",
+  "description": "This document outlines the process for testing that the workspace setup instructions work correctly in a fresh environment.",
+  "source": "@site/docs/module-1-ros2/chapters/testing-workflow.md",
+  "sourceDirName": "module-1-ros2/chapters",
+  "slug": "/module-1-ros2/chapters/testing-workflow",
+  "permalink": "/docs/module-1-ros2/chapters/testing-workflow",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/testing-workflow.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

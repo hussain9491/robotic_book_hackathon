@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Introduction to Physical AI & Humanoid Robotics",
+  "description": "Welcome to the Physical AI & Humanoid Robotics book. This comprehensive guide covers the development of intelligent humanoid robots using ROS 2 and AI agents.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Chapter 1: Introduction to ROS 2 for Humanoid Robotics",
+    "permalink": "/docs/module-1-ros2/chapters/chapter-1-intro"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "module-1-ros2/chapters/workspace-setup-guide",
+  "title": "Step-by-Step ROS 2 Workspace Setup Guide",
+  "description": "This guide provides detailed instructions for setting up a ROS 2 workspace for humanoid robotics development, with screenshots and verification steps.",
+  "source": "@site/docs/module-1-ros2/chapters/workspace-setup-guide.md",
+  "sourceDirName": "module-1-ros2/chapters",
+  "slug": "/module-1-ros2/chapters/workspace-setup-guide",
+  "permalink": "/docs/module-1-ros2/chapters/workspace-setup-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/workspace-setup-guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

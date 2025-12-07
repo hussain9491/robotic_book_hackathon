@@ -1,0 +1,8 @@
+/* Minimal global stylesheet for Next app root. Add your global styles here. */
+html, body, #__next {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}

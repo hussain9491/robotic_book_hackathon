@@ -1,0 +1,24 @@
+{
+  "id": "module-1-ros2/chapters/chapter-4-urdf",
+  "title": "Chapter 4: URDF: Modeling a Humanoid Robot",
+  "description": "Understanding URDF for Bipedal Robots",
+  "source": "@site/docs/module-1-ros2/chapters/chapter-4-urdf.md",
+  "sourceDirName": "module-1-ros2/chapters",
+  "slug": "/module-1-ros2/chapters/chapter-4-urdf",
+  "permalink": "/docs/module-1-ros2/chapters/chapter-4-urdf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-4-urdf.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Parameters, Launch Files, and Modular Control",
+    "permalink": "/docs/module-1-ros2/chapters/chapter-3-parameters"
+  },
+  "next": {
+    "title": "Chapter 5: Bridging AI Agents to ROS 2",
+    "permalink": "/docs/module-1-ros2/chapters/chapter-5-ai-integration"
+  }
+}

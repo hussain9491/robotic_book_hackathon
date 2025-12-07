@@ -1,0 +1,118 @@
+{
+  "/__docusaurus/debug-799": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-421-1eb"
+    }
+  },
+  "/__docusaurus/debug/config-2c2": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-421-1eb"
+    }
+  },
+  "/__docusaurus/debug/content-005": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-421-1eb"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-ee0": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-421-1eb"
+    }
+  },
+  "/__docusaurus/debug/metadata-44f": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-421-1eb"
+    }
+  },
+  "/__docusaurus/debug/registry-6b3": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-421-1eb"
+    }
+  },
+  "/__docusaurus/debug/routes-5c7": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-421-1eb"
+    }
+  },
+  "/docs-e5f": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsd-9-d-112"
+    }
+  },
+  "/docs-853": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
+  },
+  "/docs-96c": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/intro-aed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/module-1-ros2/-3c4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-4-dd-adb"
+  },
+  "/docs/module-1-ros2/chapters/chapter-1-intro-520": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-chapter-1-intro-78-b-262"
+  },
+  "/docs/module-1-ros2/chapters/chapter-2-communication-57e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-chapter-2-communicationac-0-ec4"
+  },
+  "/docs/module-1-ros2/chapters/chapter-3-parameters-1b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-chapter-3-parametersada-213"
+  },
+  "/docs/module-1-ros2/chapters/chapter-4-urdf-c58": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-chapter-4-urdfed-8-521"
+  },
+  "/docs/module-1-ros2/chapters/chapter-5-ai-integration-905": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-chapter-5-ai-integrationcf-3-41f"
+  },
+  "/docs/module-1-ros2/chapters/chapter-6-capstone-03e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-chapter-6-capstone-630-e14"
+  },
+  "/docs/module-1-ros2/chapters/cli-basics-tutorial-7eb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-cli-basics-tutorial-86-a-3bc"
+  },
+  "/docs/module-1-ros2/chapters/communication-diagram-99a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-communication-diagramb-1-b-b2d"
+  },
+  "/docs/module-1-ros2/chapters/testing-workflow-288": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-testing-workflow-518-e4b"
+  },
+  "/docs/module-1-ros2/chapters/urdf-visualization-test-c34": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-urdf-visualization-testca-5-2b2"
+  },
+  "/docs/module-1-ros2/chapters/workspace-diagram-a1c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-workspace-diagram-40-a-1ad"
+  },
+  "/docs/module-1-ros2/chapters/workspace-setup-guide-afa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapters-workspace-setup-guide-363-c67"
+  },
+  "/docs/module-1-ros2/setup-guide-49d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-setup-guide-762-91b"
+  }
+}

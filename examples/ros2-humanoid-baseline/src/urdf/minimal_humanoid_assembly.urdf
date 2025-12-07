@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!-- Assembled Minimal Humanoid Robot URDF Model -->
+<!-- Uses included component files -->
+<robot name="minimal_humanoid" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Include component files -->
+  <xacro:include filename="materials.urdf" />
+  <xacro:include filename="body.urdf" />
+  <xacro:include filename="left_arm.urdf" />
+  <xacro:include filename="right_arm.urdf" />
+  <xacro:include filename="left_leg.urdf" />
+  <xacro:include filename="right_leg.urdf" />
+
+  <!-- Transmissions for ros2_control (simplified) -->
+  <transmission name="left_shoulder_pitch_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="left_shoulder_pitch">
+      <hardwareInterface>position_controllers/JointPositionController</hardwareInterface>
+    </joint>
+    <actuator name="left_shoulder_pitch_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="right_shoulder_pitch_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="right_shoulder_pitch">
+      <hardwareInterface>position_controllers/JointPositionController</hardwareInterface>
+    </joint>
+    <actuator name="right_shoulder_pitch_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="left_elbow_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="left_elbow_joint">
+      <hardwareInterface>position_controllers/JointPositionController</hardwareInterface>
+    </joint>
+    <actuator name="left_elbow_joint_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="right_elbow_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="right_elbow_joint">
+      <hardwareInterface>position_controllers/JointPositionController</hardwareInterface>
+    </joint>
+    <actuator name="right_elbow_joint_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="left_hip_pitch_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="left_hip_pitch">
+      <hardwareInterface>position_controllers/JointPositionController</hardwareInterface>
+    </joint>
+    <actuator name="left_hip_pitch_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="right_hip_pitch_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="right_hip_pitch">
+      <hardwareInterface>position_controllers/JointPositionController</hardwareInterface>
+    </joint>
+    <actuator name="right_hip_pitch_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="left_knee_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="left_knee_joint">
+      <hardwareInterface>position_controllers/JointPositionController</hardwareInterface>
+    </joint>
+    <actuator name="left_knee_joint_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="right_knee_joint_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="right_knee_joint">
+      <hardwareInterface>position_controllers/JointPositionController</hardwareInterface>
+    </joint>
+    <actuator name="right_knee_joint_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+</robot>

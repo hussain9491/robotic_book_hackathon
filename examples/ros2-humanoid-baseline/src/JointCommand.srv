@@ -1,0 +1,11 @@
+# JointCommand.srv
+# Service definition for commanding a joint to a specific position
+
+string joint_name  # Name of the joint to control
+float64 target_position  # Target position in radians or meters
+float64 max_effort  # Maximum effort to apply (optional, can be -1 for no limit)
+
+---
+bool success  # True if the command was accepted
+string message  # Additional information about the result
+float64 actual_position  # The actual position after command execution

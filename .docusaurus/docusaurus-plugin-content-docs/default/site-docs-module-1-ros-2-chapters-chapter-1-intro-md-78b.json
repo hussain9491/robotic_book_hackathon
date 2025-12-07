@@ -1,0 +1,24 @@
+{
+  "id": "module-1-ros2/chapters/chapter-1-intro",
+  "title": "Chapter 1: Introduction to ROS 2 for Humanoid Robotics",
+  "description": "What is ROS 2 and Why is it the \"Nervous System\" of Humanoid Robots?",
+  "source": "@site/docs/module-1-ros2/chapters/chapter-1-intro.md",
+  "sourceDirName": "module-1-ros2/chapters",
+  "slug": "/module-1-ros2/chapters/chapter-1-intro",
+  "permalink": "/docs/module-1-ros2/chapters/chapter-1-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-1-intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Physical AI & Humanoid Robotics",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Chapter 2: ROS 2 Nodes, Topics, and Services",
+    "permalink": "/docs/module-1-ros2/chapters/chapter-2-communication"
+  }
+}

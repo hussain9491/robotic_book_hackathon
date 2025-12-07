@@ -1,0 +1,147 @@
+/* Hero Banner Styles */
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+  color: white;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* Section Styles */
+.features {
+  padding: 4rem 0;
+  background-color: #0f0f0f;
+}
+
+.featuresSection {
+  padding: 4rem 0;
+  background-color: #1a1a1a;
+}
+
+.aiNativeSection {
+  padding: 4rem 0;
+  background-color: #0f0f0f;
+}
+
+.ctaSection {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+  color: white;
+  text-align: center;
+}
+
+/* Card Styles */
+.card {
+  height: 100%;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border: 1px solid #333;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 123, 255, 0.3);
+}
+
+.cardIcon {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+/* Section Title */
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #00d4ff;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+/* Feature List */
+.featureList {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #333;
+}
+
+.featureItem:last-child {
+  border-bottom: none;
+}
+
+.checkmark {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-color: #00d4ff;
+  color: #000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+/* CTA Section */
+.ctaSubtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.ctaButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+  }
+
+  .heroBanner {
+    padding: 2rem 1rem;
+  }
+
+  .cardIcon {
+    padding: 1rem 0;
+  }
+}

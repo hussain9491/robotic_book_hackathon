@@ -1,0 +1,20 @@
+{
+  "id": "module-1-ros2/chapters/chapter-6-capstone",
+  "title": "Chapter 6: Capstone Lab: Building the Humanoid Control Pipeline",
+  "description": "Integrating All Components",
+  "source": "@site/docs/module-1-ros2/chapters/chapter-6-capstone.md",
+  "sourceDirName": "module-1-ros2/chapters",
+  "slug": "/module-1-ros2/chapters/chapter-6-capstone",
+  "permalink": "/docs/module-1-ros2/chapters/chapter-6-capstone",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/chapter-6-capstone.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 5: Bridging AI Agents to ROS 2",
+    "permalink": "/docs/module-1-ros2/chapters/chapter-5-ai-integration"
+  }
+}

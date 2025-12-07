@@ -1,0 +1,15 @@
+{
+  "id": "module-1-ros2/chapters/workspace-diagram",
+  "title": "ROS 2 Workspace Diagram",
+  "description": "Directory Structure Diagram",
+  "source": "@site/docs/module-1-ros2/chapters/workspace-diagram.md",
+  "sourceDirName": "module-1-ros2/chapters",
+  "slug": "/module-1-ros2/chapters/workspace-diagram",
+  "permalink": "/docs/module-1-ros2/chapters/workspace-diagram",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/chapters/workspace-diagram.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "module-1-ros2/index",
+  "title": "Module 1: The Robotic Nervous System (ROS 2)",
+  "description": "Welcome to Module 1 of the Physical AI & Humanoid Robotics book. This module covers the fundamentals of ROS 2 as the \"nervous system\" of humanoid robots, focusing on middleware for robot control.",
+  "source": "@site/docs/module-1-ros2/index.md",
+  "sourceDirName": "module-1-ros2",
+  "slug": "/module-1-ros2/",
+  "permalink": "/docs/module-1-ros2/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/speckit/robotic-book/edit/main/docs/module-1-ros2/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

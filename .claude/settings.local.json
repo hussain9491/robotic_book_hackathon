@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python src/validate_urdf_visualization.py)",
+      "Bash(python test_ai_accuracy.py)",
+      "Bash(npx docusaurus start)",
+      "Bash(npm install -g @docusaurus/core)",
+      "Bash(dir /s)",
+      "Bash(cmd /c \"dir /s\")",
+      "Bash(npx @docusaurus/core start)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
