@@ -138,6 +138,11 @@ export default [
     ]
   },
   {
+    path: '/',
+    component: ComponentCreator('/', '95b'),
+    exact: true
+  },
+  {
     path: '*',
     component: ComponentCreator('*'),
   },

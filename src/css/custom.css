@@ -5,15 +5,20 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+
+/* Custom colors for the robotics theme */
+:root {
+  --robotic-black: #0a0a0a;
+  --robotic-dark: #1a1a1a;
+  --robotic-gray: #2a2a2a;
+  --robotic-cyan: #00d4ff;
+  --robotic-cyan-dark: #00a3c2;
+}
 
 /* You can override the default Infima variables here. */
 :root {
@@ -47,4 +52,511 @@
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for the robotics homepage */
+.bg-robotic-gradient {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+}
+
+.bg-robotic-gradient-alt {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%);
+}
+
+.text-robotic-cyan {
+  color: var(--robotic-cyan) !important;
+}
+
+.bg-robotic-cyan {
+  background-color: var(--robotic-cyan) !important;
+}
+
+.hover-bg-robotic-cyan:hover {
+  background-color: var(--robotic-cyan) !important;
+}
+
+.hover-bg-robotic-cyan-dark:hover {
+  background-color: var(--robotic-cyan-dark) !important;
+}
+
+.border-robotic-cyan {
+  border-color: var(--robotic-cyan) !important;
+}
+
+.hover-border-robotic-cyan:hover {
+  border-color: var(--robotic-cyan) !important;
+}
+
+.bg-robotic-dark {
+  background-color: var(--robotic-dark) !important;
+}
+
+.bg-robotic-gray {
+  background-color: var(--robotic-gray) !important;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+.btn-primary {
+  background-color: var(--robotic-cyan) !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--robotic-cyan-dark) !important;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background-color: transparent !important;
+  color: var(--robotic-cyan) !important;
+  border: 2px solid var(--robotic-cyan) !important;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(0, 212, 255, 0.1) !important;
+}
+
+/* Card styles */
+.card {
+  transition: all 0.3s ease, transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--robotic-gray) 0%, var(--robotic-dark) 100%);
+  border: 1px solid #444;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--robotic-cyan);
+  box-shadow: 0 20px 25px -5px rgba(0, 212, 255, 0.1), 0 10px 10px -5px rgba(0, 212, 255, 0.04);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .py-16 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+
+  .text-3xl {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row !important;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:py-24 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem !important;
+    line-height: 1 !important;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 2rem !important;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem !important;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem !important;
+  }
+
+  .md\:space-y-4 > :not(:first-child) {
+    --tw-space-y-reverse: 0 !important;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse)) !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:text-6xl {
+    font-size: 3.75rem !important;
+    line-height: 1 !important;
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+/* Improved responsive grid */
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+/* Container max-width */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Flexbox utilities */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-y-3 > :not(:first-child) {
+  margin-top: 0.75rem;
+}
+
+/* Text alignment */
+.text-center {
+  text-align: center;
+}
+
+/* Margin and padding */
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+/* Border */
+.border {
+  border-width: 1px;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+/* Font weights */
+.font-bold {
+  font-weight: 700;
+}
+
+/* Width and height */
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+/* Display */
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* Overflow */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Positioning */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+/* Text sizes */
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+/* Colors */
+.text-white {
+  color: white;
+}
+
+.text-gray-200 {
+  color: #e5e7eb;
+}
+
+.text-gray-300 {
+  color: #d1d5db;
+}
+
+/* Backgrounds */
+.bg-transparent {
+  background-color: transparent;
+}
+
+/* Hover effects */
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}
+
+.hover\:-translate-y-1:hover {
+  transform: translateY(-0.25rem);
+}
+
+/* Shadow */
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.hover\:shadow-xl:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.hover\:shadow-robotic-cyan\/10:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 212, 255, 0.1), 0 10px 10px -5px rgba(0, 212, 255, 0.04);
+}
+
+/* Transitions */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.transition-colors {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.duration-300 {
+  transition-duration: 0.3s;
+}
+
+/* Transform */
+.transform {
+  transform: translate(0, 0);
+}
+
+/* Max width */
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+/* Centering */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Flex shrink */
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+/* Rounded */
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+/* Leading */
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+/* Responsive text sizes */
+@media (min-width: 640px) {
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
+  .md\:gap-12 {
+    gap: 3rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:space-y-4 > :not(:first-child) {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }

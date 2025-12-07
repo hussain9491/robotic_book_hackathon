@@ -349,7 +349,13 @@
     }
   },
   "docusaurus-plugin-content-pages": {
-    "default": null
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
